@@ -28,8 +28,6 @@ function generateMarkdown(data) {
   ${data.usefulness}\n
   ${data.learn}\n
   ${data.uniqueness}\n
-  ## Table of Contents
-  ${data.contents}
   ## Installation Instructions
   ${data.installInstructions}
   ## Contribution Guidelines
@@ -46,7 +44,6 @@ function generateMarkdown(data) {
   ${data.repo}
   ### Deployed Website
   ${data.website}
-
 `;
 }
 

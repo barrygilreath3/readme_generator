@@ -1,22 +1,20 @@
-# bubbly
-  License: Creative Commons
+# Readme Generator
+  License: ISC
   ## Description
-  s
+  I built this project to create better readme files.
 
-  s
+  The creation of readme files can be a hassle.  Furthermore, many readme files lack consistency with the proper convention.  This readme generator solves these problems!
 
-  s
+  This project helped me to learn to better use Nodejs, especially to create files.
 
-  s
+  This project stands out because I made it.
 
-  ## Table of Contents
-  undefined
   ## Installation Instructions
-  s
+  The user does not need to know any specific installation instructions.
   ## Contribution Guidelines
-  s
+  Future contributors should improve this product by coding better than I did.
   ## Test Instructions
-  s
+  Ensure that a markdown file is created named README.md
   ## Questions
   ### "How can I contact you?"
   Email: barrygilreath3@gmail.com
@@ -24,7 +22,6 @@
   http://www.github.com/barrygilreath3/
   ## URL's
   ### Repository
-  https://github.com/barrygilreath3/readme_generator
+  http://www.github.com/barrygilreath3
   ### Deployed Website
-  https://github.com/barrygilreath3/readme_generator
-
+  http://www.github.com/barrygilreath3
