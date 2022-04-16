@@ -14,6 +14,22 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What is your GitHub user name?',
+        name: 'github'
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email'
+    },
+    {
+        type: 'list',
+        message: 'Select the license type:',
+        choices: ["None", "MIT", "ISC", "GNU", "Creative Commons", "GNU", "Mozilla Public License"],
+        name: 'license'
+    },
+    {
+        type: 'input',
         message: 'Why did you build this project?  What was your motivation?',
         name: 'motivation'
     },
@@ -34,12 +50,27 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Write any installation instructions the user needs to know:',
+        name: "installInstructions"
+    },
+    {
+        type: 'input',
+        message: 'What are some guidelines future contributors need to follow?',
+        name: "contributionGuidelines"
+    },
+    {
+        type: 'input',
+        message: 'What instructions should be followed for testing?',
+        name: "testInstructions"
+    },
+    {
+        type: 'input',
         message: 'What is the URL of your repository?',
         name: "repo"
     },
     {
         type: 'input',
-        message: 'What makes URL of your deployed website?',
+        message: 'What is the URL of your deployed website?',
         name: "website"
     },
 ];
