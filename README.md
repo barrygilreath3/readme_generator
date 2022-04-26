@@ -1,27 +1,41 @@
-# Readme Generator
-  License: ISC
-  ## Description
-  I built this project to create better readme files.
+# README Generator
 
-  The creation of readme files can be a hassle.  Furthermore, many readme files lack consistency with the proper convention.  This readme generator solves these problems!
+## Task
 
-  This project helped me to learn to better use Nodejs, especially to create files.
+In this task, I was assigned to make a command-line application that generates a README.md file.  A good README file is an important part of every good repository, and this app is designed to help guide the developer to make better README's.
 
-  This project stands out because I made it.
+## User Story
 
-  ## Installation Instructions
-  The user does not need to know any specific installation instructions.
-  ## Contribution Guidelines
-  Future contributors should improve this product by coding better than I did.
-  ## Test Instructions
-  Ensure that a markdown file is created named README.md
-  ## Questions
-  ### "How can I contact you?"
-  Email: barrygilreath3@gmail.com
-  ### "What is your Github account?"
-  http://www.github.com/barrygilreath3/
-  ## URL's
-  ### Repository
-  http://www.github.com/barrygilreath3
-  ### Deployed Website
-  http://www.github.com/barrygilreath3
+```md
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
+
+## Acceptance Criteria
+
+```md
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+```
+## Repository
+https://github.com/barrygilreath3/readme_generator
+
+## Contact
+### Email
+barrygilreath3@gmail.com
+### Portfolio
+http://www.github.com/barrygilreath3
